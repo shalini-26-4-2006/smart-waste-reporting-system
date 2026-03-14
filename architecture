@@ -1,0 +1,32 @@
+        +------------------+
+        |      Citizen     |
+        | (Mobile/Web App) |
+        +---------+--------+
+                  |
+                  | Report Waste
+                  v
+        +-------------------+
+        |   Web Server /    |
+        | Application Layer |
+        +---------+---------+
+                  |
+                  | Store Data
+                  v
+        +-------------------+
+        |     Database      |
+        | (Reports, Photos) |
+        +---------+---------+
+                  |
+                  | Notification
+                  v
+        +-------------------+
+        | Municipality /    |
+        | Admin Dashboard   |
+        +---------+---------+
+                  |
+                  | Assign Worker
+                  v
+        +-------------------+
+        | Sanitation Worker |
+        | Cleans the Waste  |
+        +-------------------+
